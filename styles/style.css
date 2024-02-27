@@ -1,0 +1,639 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+nav {
+    border-top: 3px solid hsl(27, 90%, 55%);
+    border-bottom: 1px solid hsl(210, 8%, 85%);
+}
+
+.login {
+    padding: 8px 10px;
+    background-color:transparent;
+    color: #0A95FF;
+    border: 1px solid #0A95FF;
+}
+
+input{
+	border:0px solid;
+	outline: none;
+}
+
+
+.signup {
+    padding: 8px 10px;
+    border: none;
+    background-color: #0A95FF;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+.containers{
+
+	width:100%;
+	margin:55px 0px 0px;
+}
+.containerLeft{
+	height:600px;
+	border-right:1px solid hsl(210,8%,85%);
+	border-bottom:1px solid hsl(210,8%,85%);		
+}
+.leftNavContents{
+	gap:5px;
+	font-size:13px;
+	color:#3b4045;
+}
+.leftNavContents svg{
+	fill:hsl(210,8%,25%);
+}
+
+.users{
+	height:35px;
+	gap:5px;
+	background-color:hsl(210,8%,95%);
+	border-radius:5px 0px 0px 5px;
+}
+.users svg{
+	fill:hsl(210,8%,5%);	
+}
+.companies{
+	gap:5px;
+	font-size:13px;
+	color:#3b4045;
+}
+.companies svg{
+	fill:hsl(210,8%,25%);
+}
+
+.collectives{
+	gap:50px;
+	cursor:pointer;
+	color:#3b4045;
+}
+.collectives svg{
+	fill:hsl(210,8%,25%);
+}
+.collectives p{
+	font-size:12px;
+	font-weight:700 ! important;
+	color:#3b4045;
+}
+.explore{
+	gap:5px;
+	cursor:pointer;
+}
+.explore svg{
+	fill:;
+}
+
+.explore p{
+	font-size:13px;
+}
+.discussions svg{
+	fill:hsl(210,8%,25%);
+}
+
+.discussions p{
+	font-size:13px;
+	color:#3b4045;
+}
+
+
+
+.containerRight{
+	width:100%;
+}
+
+.jon img{
+	width:128px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius:5px;
+}
+.jonDetails{
+	gap:8px;
+	color:#636b74;
+}
+.jonDetails > p{
+	font-size:34px;
+	color:#0c0d0e;
+}
+.details{
+	gap:5px;
+}
+.details p{
+	font-size:11px;
+}
+.details svg{
+	fill:hsl(210,8%,68%);
+}
+.cSharp{
+	cursor:pointer;
+}
+
+
+
+.profileButton button{
+	right:60px;
+	display:flex;
+	justify-content:center;
+	font-size:12px;
+	text-align: center;
+	width: 74.45px; 
+    	height: 35.03px;
+	padding-left:7.5px;
+}
+.profileButton span{
+	position:relative;
+	top:2px;
+}
+
+.profile{
+	position:relative;
+	bottom:8px;
+	background-color: transparent;
+	border:1px solid hsl(210,9%,75%);
+	border-radius:6px;
+	font-size:13px;	
+	color:#3b4045;
+}
+
+.pActive {
+	position:relative;
+	bottom:25px;
+	gap:10px;
+}
+.pActive p {
+	font-size:13px;
+	padding:6px 12px;
+	color:#636b74;
+}
+
+.profiles {
+    	background-color: hsl(27,89%,48%);
+	border-radius:50px;
+	color:#636b74;
+}
+
+.pActive p:nth-child(1) {
+	color:white;
+}
+
+
+
+
+
+.statsAbouts{
+	gap:15px;
+}
+
+.statText{
+	font-size:21px;
+	color:#0c0d0e;
+}
+.statsBox{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	gap:15px;
+	font-size:13px;	
+	color:#636b74;
+}
+
+
+.overall svg{
+	fill:#636b74;
+}
+.numbers{
+	font-size:17px;
+	color:#0c0d0e;
+}
+
+.collectText{
+	font-size:21px;
+}
+.collectBox{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	gap:15px;
+	font-size:13px;	
+	color:#636b74;
+	cursor:pointer;		
+}
+.googleCloud{
+	gap:10px;	
+}
+
+
+
+.numbers{
+	font-size:17px;
+	color:#0c0d0e;
+}
+
+
+.communities{
+	font-size:21px;
+}
+.viewAll{
+	font-size:13px;
+	gap:5px;
+	color:#3b4045;
+}
+.viewAll svg{
+	fill:hsl(210,8%,25%);
+}
+
+
+.communityBox{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	padding:10px;
+	gap:15px;
+	font-size:13px;	
+	color:#636b74;
+}
+.communityContents{
+	display:flex;
+	justify-content:space-between;
+	gap:20px
+	align-items:center;
+	
+}
+.communityContentsStack{
+	width:100%;
+	gap:5px;
+	color:#1b75d0;
+}
+.communityContentsStack:hover{
+	color:hsl(210,77%,36%);
+}
+.communityContentsStackImg{
+	width:10%;
+	
+}
+.communityContentsStackP{
+	width:90%;
+}
+
+
+
+
+
+.aboutText{
+	font-size:21px;
+	color:#0c0d0e;
+}
+.authorOfC{
+	font-size:15px;
+	color:#3b4045;
+}
+.authorOfC a{
+	color:#1b75d0;
+	font-size:15px;
+} 
+.authorOfCText{
+	font-size:15px;
+	color:#3b4045;
+}
+.authorOfCSocial p{
+	font-size:15px;
+	color:#3b4045;
+}
+.list{
+	font-size:15px;
+	color:#3b4045;
+}
+
+li a{
+	
+	color:#1b75d0;
+}
+.readMore{
+	border-radius:5px;
+	font-size:11px;	
+	color:#3b4045;
+}
+.readMore button{
+	background-color: transparent;
+	border:1px solid hsl(210,9%,75%);
+	font-size:11px;
+	border-radius:5px;
+	color:#0c0d0e;
+}
+
+
+
+
+.badgesHeadText{
+	color:#0c0d0e;
+	font-size:21px;
+}
+.badgesHeadView{
+	color:#636b74;
+	font-size:13px;
+}
+
+
+.badgesCards{
+	gap:5px;
+}
+
+
+.cards{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	gap:10px;
+	font-size:13px;	
+	color:#636b74;
+}
+
+
+.cardIcon{
+	gap:10px;
+}
+.goldBadges{
+	font-size:12px;
+	color:#0c0d0e;
+}
+.goldBadges p:{
+	font-size:12px;
+	color:#0c0d0e;
+}
+.goldBadges p:first-child{
+	font-size:21px;
+	color:#0c0d0e;
+}
+
+.eventsDate{
+	color:#0c0d0e;
+	font-size:11px;
+}
+
+
+.circlePoint{
+	background-color:hsl(210,8%,95%);
+	border:1px solid hsl(210,8%,85%);
+	color:#3b4045;
+	border-radius:5px;
+	gap:5px;
+	cursor:pointer;
+}
+.circlePointColorGold{
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background-color:#ffcc01;
+}
+.circlePointColorSilver{
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background-color:#b4b8bc;
+}
+.circlePointColorBrown{
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background-color:#d1a684;
+}
+
+
+
+.circleDate{
+	color:#3b4045;
+}
+
+
+
+.tagsCard{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	font-size:13px;	
+	color:#636b74;
+}
+
+.tagsCardContents{
+	border-bottom:1px solid hsl(210,8%,85%);
+}
+
+
+.tagsCardContentss{
+	padding:5px 10px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+
+.tagsName{
+	gap:10px;
+}
+
+.tagsNameHeadings{
+	background-color:hsl(210,80%,96%);
+	border-radius:5px;
+	color:#155ca2;
+	font-size:12px;
+}
+
+
+.tagsScoreContents{
+	gap:15px;
+}
+
+.tagsScore{
+	gap:5px;
+}
+
+.tagsScoreNum{
+	font-size:17px;
+	color:#0c0d0e;
+}
+
+.tagsScoreText{
+	font-size:13px;
+	color:#636b74;
+}
+
+
+
+
+
+
+.badgesHeadView > span{
+	color:#1b75d0;
+}
+
+.viewAllQA{
+	font-size:11px;
+	color:#3b4045;
+	gap:10px;
+}
+
+
+.qAAll{	
+	border:1px solid hsl(210,8%,85%);
+	background-color:hsl(210,8%,90%);
+	border-radius:5px 0px 0px 5px;
+}
+
+.qAAQA{	
+	border:1px solid hsl(210,8%,85%);
+}
+.qAAQAA{
+	border:1px solid hsl(210,8%,85%);
+	border-radius:0px 5px 5px 0px;
+	
+}
+
+.postCard{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	font-size:13px;	
+	color:#636b74;
+}
+
+.topPostContents{
+	width:97.5%;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	border-bottom:1px solid hsl(210,8%,85%);
+}
+
+
+
+.greenIcons{
+	fill:#18864b;
+}
+
+.greenNumbers{
+	border-radius:5px;
+	width:26px;
+	height:26px;
+	color:#ffffff;
+	background-color:#18864b;
+	font-size:12px;
+}
+.greyIcons{
+	fill:hsl(210,8%,68%);
+}
+
+
+.greyNumbers{
+	border-radius:5px;
+	width:26px;
+	height:26px;
+	color:#3b4045;
+	border:1px solid hsl(210,8%,85%);
+	font-size:12px;
+}
+
+.greyNumberss{
+	border-radius:5px;
+	width:26px;
+	height:26px;
+	color:#3b4045;
+	border:1px solid hsl(210,8%,85%);
+	font-size:12px;
+}
+.greenText{
+	font-size:15px;
+	color:#1b75d0;
+	cursor:pointer;
+}
+
+.greyText{
+	font-size:15px;
+	color:#0c3b6a;
+	cursor:pointer;
+}
+.greenDate{
+	font-size:13px;
+	color:#636b74;
+}
+
+
+
+.metaPost{
+	gap:5px;
+	font-size:13px;
+	color:#636b74;
+}
+
+.metaPostIconNumber{
+	gap:5px;
+}
+.metaPostIconNumber svg{
+	fill:hsl(210,8%,42%);
+}
+
+.metaPostCard{
+	border-radius:5px;
+	border:1px solid hsl(210,8%,85%);
+	font-size:13px;	
+	color:#636b74;
+}
+
+.networkName{
+	gap:5px;
+}
+
+
+.footer{
+	background-color:#0c0d0e;
+	font-size:13px;
+	color:#c8ccd0;
+}
+
+.footerHT{
+	gap:15px;
+	cursor:pointer;
+}
+
+
+
+.footerHTh{
+	display:flex;
+	flex-direction:column;
+	align-items:space-between;
+	justify-content:flex-start;
+	gap:15px;
+	margin-top:12px;
+	margin-left:20px;
+	width:30%;
+	cursor:pointer;
+}
+.footerHTh p:hover{
+	cursor:pointer;
+}
+
+.footerText{
+	color:#babfc5;
+	display:flex;
+	flex-direction:column;
+	gap:8px;
+	cursor:pointer;
+}
+.footerText p:hover{
+	color:hsl(210,8%,95%);
+}
+.footerBlog{
+	font-size:11px;
+	color:#babfc5;
+}
+.blogs{
+	gap:10px;
+}
+.blogs p:hover{
+	color:hsl(210,8%,95%);
+	cursor:pointer;
+}
+
+
