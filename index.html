@@ -107,12 +107,12 @@
 			<div class="containerRight d-flex flex-column py-4 p-lg-4">
 				<div class="jonSkeet d-flex align-items-start justify-content-between mb-5 ">
 					<div class="imgDetails d-flex flex-column flex-lg-row  ">
-						<div class="jon">
+						<div class="jon ps-2">
 							<img src="./assets/jon.png"  alt="jon">
 						</div>
-						<div class="jonDetails col-xs-12 d-flex flex-column align-items-start justify-content-center py-3 ps-4">
+						<div class="jonDetails col-xs-12 d-flex flex-column align-items-start justify-content-start py-3 ps-4">
 							<p class="mb-0 fs-md-lg-xl fs-sm-xs">Jon Skeet</p>
-							<div class="details d-flex align-items-center justify-content-start">
+							<div class="details d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-start">
 								<div class="d-flex align-items-center justify-content-start">
 									<svg aria-hidden="true" class="svg-icon iconCake" width="15" height="15" viewBox="0 0 18 18">
 										<path d="M9 4.5a1.5 1.5 0 0 0 1.28-2.27L9 0 7.72 2.23c-.14.22-.22.48-.22.77 0 .83.68 1.5 1.5 1.5Zm3.45 7.5-.8-.81-.81.8c-.98.98-2.69.98-3.67 0l-.8-.8-.82.8c-.49.49-1.14.76-1.83.76-.55 0-1.3-.17-1.72-.46V15c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2v-2.7c-.42.28-1.17.45-1.72.45-.69 0-1.34-.27-1.83-.76Zm1.3-5H10V5H8v2H4.25C3 7 2 8 2 9.25v.9c0 .81.91 1.47 1.72 1.47.39 0 .77-.14 1.03-.42l1.61-1.6 1.6 1.6a1.5 1.5 0 0 0 2.08 0l1.6-1.6 1.6 1.6c.28.28.64.43 1.03.43.81 0 1.73-.67 1.73-1.48v-.9C16 8.01 15 7 13.75 7Z"></path>
@@ -126,7 +126,7 @@
 									<p class="mb-0">Last seen this week</p>
 								</div>
 							</div>
-							<div class="details d-flex align-items-center justify-content-start">
+							<div class="details d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-start">
 								<div class="d-flex align-items-center justify-content-start">
 									<svg aria-hidden="true" class="fc-black-350 svg-icon iconTwitter cSharp" width="15" height="15" viewBox="0 0 18 18">
 										<path d="M17 4.04c-.59.26-1.22.44-1.88.52a3.3 3.3 0 0 0 1.44-1.82c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04Z"></path>
@@ -152,49 +152,51 @@
 						<button class="profile d-flex justify-content-center align-items-center">Profiles<span class="material-symbols-outlined">arrow_drop_down</span></button>
 					</div>
 				</div>
-				<div class="pActive px-4 d-flex justify-content-start align-items-center">
+				<div class="pActive px-2 d-flex justify-content-start align-items-center">
 					<div>
 						<p class="profiles">Profile</p>
 					</div>
 					<p class="activity">Activity</p>
 				</div>
-				<div class="statsAbouts d-flex align-items-start justify-content-start p-2">
-					<div class="stats d-flex flex-column">
+				<div class="statsAbouts  d-flex flex-column flex-lg-row align-items-start justify-content-start  p-2">
+					<div class="stats d-flex flex-column ">
 						<div class="statText">
 							<p>Stats</p>
 						</div>
-						<div class="statsBox d-flex p-2 mb-4 pe-5 flex-column align-items-start ">
-							<div class=" col-12 reputationReached d-flex align-items-center justify-content-between">
-								<div class="repu col-6 d-flex flex-column justify-content-center align-items-start">
-									<p class="numbers mb-0">1,447,238</p>
-									<p class="mb-0">reputation</p>
+						<div class="statsBox d-flex  justify-content-start flex-column flex-sm-row flex-lg-column p-2 mb-lg-3">
+							<div class="d-flex flex-lg-column ">
+								<div class="d-flex justify-content-lg-between mb-lg-2">
+									<div class="repu px-2 px-lg-4 ">
+										<p class="numbers mb-0">1,447,238</p>
+										<p class="mb-0">reputation</p>
+									</div>
+									<div class="reach px-2 px-lg-4">
+										<p class="numbers mb-0">401.2m</p>
+										<p class="mb-0">reached</p>
+									</div>
 								</div>
-								<div class="reach ms-4 me-5 col-6 d-flex flex-column justify-content-center align-items-start">
-									<p class="numbers mb-0">401.2m</p>
-									<p class="mb-0">reached</p>
+								<div class="d-flex justify-content-lg-between mb-lg-2 ">
+									<div class="repu px-2 px-lg-4">
+										<p class="numbers mb-0">35,683</p>
+										<p class="mb-0">answers</p>
+									</div>
+									<div class="reach px-2 px-lg-4">
+										<p class="numbers mb-0">55</p>
+										<p class="mb-0">questions</p>
+									</div>
 								</div>
 							</div>
-							<div class="col-12 reputationReached d-flex align-items-center justify-content-between">
-								<div class="repu col-6 d-flex flex-column justify-content-center align-items-start">
-									<p class="numbers mb-0">35,683</p>
-									<p class="mb-0">answers</p>
-								</div>
-								<div class="reach ms-4 me-4 col-6 d-flex flex-column justify-content-center align-items-start">
-									<p class="numbers mb-0">55</p>
-									<p class="mb-0">questions</p>
-								</div>
-							</div>
-							<div class="overall d-flex flex-column">
+							<div class="overall py-lg-2 d-flex flex-column px-2 px-lg-4">
 								<svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18">
 									<path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z"></path>
 								</svg>
 								<p class="mb-0">top <b>0.01%</b> overall</p>
 							</div>
 						</div>
-						<div class="collectText">
+						<div class="collectText d-none d-lg-flex">
 							<p class="mb-0">Collectives</p>
 						</div>
-						<div class="collectBox d-flex p-2 my-4  flex-column align-items-start">
+						<div class="collectBox d-none d-lg-flex p-2 my-4  flex-column align-items-start">
 							<div class="googleCloud d-flex col-12">
 								<div class="cloud d-flex align-items-center justify-content-start col-3">
 									<img src="./assets/cloud.png" alt="cloud">
@@ -205,9 +207,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="communityText">
-							<div class="communities d-flex align-items-center justify-content-between">
-								<p class="mb-0">Communities</p>
+						<div class="communityText d-none d-lg-flex ">
+							<div class="communities d-none d-lg-flex pe-lg-3 align-items-center justify-content-between">
+								<p class="mb-0 me-lg-3">Communities</p>
 								<div class="viewAll d-flex align-items-center">
 									<p class="mb-0">View all</p>
 									<svg aria-hidden="true" class="svg-icon iconShareSm" width="14" height="14" viewBox="0 0 14 14">
@@ -216,7 +218,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="communityBox d-flex flex-column align-items-between p-2 my-4  ">
+						<div class="communityBox d-none d-lg-flex flex-column align-items-between p-2 my-4  ">
 							<div class="communityContents d-flex align-items-center justify-content-between ">
 								<div class="communityContentsStack d-flex align-items-center justify-content-between">
 									<div class="communityContentsStackImg d-flex align-items-center justify-content-center">
@@ -284,7 +286,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="abouts d-flex flex-column px-3 w-100">
+					<div class="abouts d-flex flex-column px-3 ">
 						<div class="aboutText">
 							<p class="mb-2">About</p>
 						</div>
@@ -307,150 +309,173 @@
 								</ul>
 							</div>
 						</div>
-						<div class="readMore d-flex justify-content-center align-items-center mt-4">
+						<div class="readMore d-flex justify-content-center align-items-center ">
 							<button class="readButton p-2">Read more</button>
 						</div>
-						<div class="badges d-flex flex-column justify-content-start align-items-start mt-4 col-12">
-							<div class="badgesHead d-flex align-items-center justify-content-between mb-3 col-11">
-								<p class="badgesHeadText mb-0">Badges</p>
+						<div class="mt-5">
+							<div class="double-p-head p-head-size d-flex justify-content-between ">
+								<h3 class="badgesHeadText ">Badges</h3>
 								<p class="badgesHeadView mb-0">View all badges</p>
 							</div>
-							<div class="badgesCards d-flex align-items-center justify-content-between col-11">
-								<div class="cards d-flex flex-column align-items-start py-2 px-4 mb-4 col-4">
-									<div class="cardIcon d-flex justify-content-start align-items-center">
-										<img src="./assets/gold.png" alt="gold">
-										<div class="goldBadges d-flex flex-column align-items-start justify-content-center">
-											<p class="mb-0"><b>873</b>
-											<p class="mb-0">gold badges</p>
-										</div>
-									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorGold"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">events</p>
+							<div class="badgesCards d-xl-flex gap-1">
+								<div class=" cards d-sm-flex  gap-1 col">
+									<div class="card p-3 col-sm-6 mb-3 mb-sm-0">
+										<div class="cardIcon d-flex ">
+											<div>
+												<img src="./assets/gold.png" alt="gold">
+											</div>
+											<div class=" goldBadges ms-4">
+												<p class="mb-0"><b>873</b>
+												<p class="mb-0">gold badges</p>
 											</div>
 										</div>
-										<div class="circleDate">
-											<p class="mb-0">Jan 22,2013</p>
-										</div>
-									</div>
-									<div class="eventsDate d-block d-md-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorGold"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">.net-3.5</p>
+										<div class="eventsDate mt-3 d-flex flex-column gap-2">
+											<div class=" d-flex justify-content-between align-items-center">
+												<div class="circlePoint align-items-center d-flex border px-2 py-1">
+													<div class="circlePointColorGold">
+													</div>
+													<div class="circlePointText  d-flex align-items-center justify-content-center">
+														<p class="mb-0">events</p>
+													</div>
+												</div>
+												<div class="circleDate">
+													<p class="mb-0">Jan 22,2013</p>
+												</div>
+											</div>
+											<div class=" d-flex justify-content-between align-items-center">
+												<div class="circlePoint align-items-center d-flex border px-2 py-1">
+													<div class="circlePointColorGold">
+													</div>
+													<div class="circlePointText d-flex align-items-center justify-content-center">
+														<p class="mb-0">.net-3.5</p>
+													</div>
+												</div>
+												<div class="circleDate">
+													<p class="mb-0">Mar 10,2013</p>
+												</div>
+											</div>
+											<div class=" d-flex justify-content-between align-items-center">
+												<div class="circlePoint align-items-center d-flex border px-2 py-1">
+													<div class="circlePointColorGold">
+													</div>
+													<div class="circlePointText d-flex align-items-center justify-content-center">
+														<p class="mb-0">linq-to-xml</p>
+													</div>
+												</div>
+												<div class="circleDate">
+													<p class="mb-0">May 20,2013</p>
+												</div>
 											</div>
 										</div>
-										<div class="circleDate">
-											<p class="mb-0">Mar 10,2013</p>
-										</div>
 									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorGold"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">linq-to-xml</p>
+									<div class=" card p-3 col-sm-6">
+										<div class="cardIcon d-flex ">
+											<div>
+												<img src="./assets/silver.png" alt="gold">
+											</div>
+											<div class=" goldBadges ms-4">
+												<p class="mb-0"><b>9,186</b>
+												<p class="mb-0">silver badges</p>
 											</div>
 										</div>
-										<div class="circleDate">
-											<p class="mb-0">May 20,2013</p>
+										<div class="eventsDate mt-3 d-flex flex-column gap-2">
+											<div class=" d-flex justify-content-between align-items-center">
+												<div class="circlePoint align-items-center d-flex border px-2 py-1">
+													<div class="circlePointColorSilver">
+													</div>
+													<div class="circlePointText  d-flex align-items-center justify-content-center">
+														<p class="mb-0">byte</p>
+													</div>
+												</div>
+												<div class="circleDate">
+													<p class="mb-0">May 8,2013</p>
+												</div>
+											</div>
+											<div class=" d-flex justify-content-between align-items-center">
+												<div class="circlePoint align-items-center d-flex border px-2 py-1">
+													<div class="circlePointColorSilver">
+													</div>
+													<div class="circlePointText d-flex align-items-center justify-content-center">
+														<p class="mb-0">event-handling</p>
+													</div>
+												</div>
+												<div class="circleDate">
+													<p class="mb-0">Jul 3,2013</p>
+												</div>
+											</div>
+											<div class=" d-flex justify-content-between align-items-center">
+												<div class="circlePoint align-items-center d-flex border px-2 py-1">
+													<div class="circlePointColorSilver">
+													</div>
+													<div class="circlePointText d-flex align-items-center justify-content-center">
+														<p class="mb-0">equals</p>
+													</div>
+												</div>
+												<div class="circleDate">
+													<p class="mb-0">Aug 14,2013</p>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="cards d-flex flex-column align-items-start py-2 px-4 mb-4 col-4">
-									<div class="cardIcon d-flex justify-content-start align-items-center">
-										<img src="./assets/silver.png" alt="silver">
-										<div class="goldBadges d-flex flex-column align-items-start justify-content-center">
-											<p class="mb-0"><b>9,186</b>
-											<p class="mb-0">silver badges</p>
+								<div class=" card p-3 col-xl-4 ms-xl-1 mt-xl-0 mt-3 ">
+									<div class="cardIcon d-flex ">
+										<div>
+											<img src="./assets/brown.png" alt="gold">
 										</div>
-									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorSilver"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">byte</p>
-											</div>
-										</div>
-										<div class="circleDate">
-											<p  class="mb-0">May 8,2013</p>
-										</div>
-									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorSilver"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">event-handling</p>
-											</div>
-										</div>
-										<div class="circleDate">
-											<p class="mb-0">Jul 3,2013</p>
-										</div>
-									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorSilver"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">equals</p>
-											</div>
-										</div>
-										<div class="circleDate">
-											<p class="mb-0">Aug 14,2013</p>
-										</div>
-									</div>
-								</div>
-								<div class="cards d-flex flex-column align-items-start py-2 px-4 mb-4 col-4">
-									<div class="cardIcon d-flex justify-content-start align-items-center">
-										<img src="./assets/brown.png" alt="brown">
-										<div class="goldBadges d-flex flex-column align-items-start justify-content-center">
+										<div class=" goldBadges ms-4">
 											<p class="mb-0"><b>9,237</b>
 											<p class="mb-0">bronze badges</p>
 										</div>
 									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorBrown"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">filewriter</p>
+									<div class="eventsDate mt-3 d-flex flex-column gap-2">
+										<div class=" d-flex justify-content-between align-items-center">
+											<div class="circlePoint align-items-center d-flex border px-2 py-1">
+												<div class="circlePointColorBrown">
+												</div>
+												<div class="circlePointText  d-flex align-items-center justify-content-center">
+													<p class="mb-0">filewriter</p>
+												</div>
+											</div>
+											<div class="circleDate">
+												<p class="mb-0">Aug 29,2013</p>
 											</div>
 										</div>
-										<div class="circleDate">
-											<p class="mb-0">Aug 29,2013</p>
-										</div>
-									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1">
-											<div class="circlePointColorBrown"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">assert</p>
+										<div class=" d-flex justify-content-between align-items-center">
+											<div class="circlePoint align-items-center d-flex border px-2 py-1">
+												<div class="circlePointColorBrown">
+												</div>
+												<div class="circlePointText d-flex align-items-center justify-content-center">
+													<p class="mb-0">assert</p>
+												</div>
+											</div>
+											<div class="circleDate">
+												<p class="mb-0">May 20,2013</p>
 											</div>
 										</div>
-										<div class="circleDate">
-											<p class="mb-0">May 20,2013</p>
-										</div>
-									</div>
-									<div class="eventsDate d-flex align-items-center justify-content-between col-12">
-										<div class="circlePoint d-flex align-items-center justify-content-center p-1 col-6">
-											<div class="circlePointColorBrown"></div>
-											<div class="circlePointText d-flex align-items-center justify-content-center">
-												<p class="mb-0">comparable</p>
+										<div class=" d-flex justify-content-between align-items-center">
+											<div class="circlePoint align-items-center d-flex border px-2 py-1">
+												<div class="circlePointColorBrown">
+												</div>
+												<div class="circlePointText d-flex align-items-center justify-content-center">
+													<p class="mb-0">comparable</p>
+												</div>
 											</div>
-										</div>
-										<div class="circleDate">
-											<p class="mb-0">May 17,2013</p>
+											<div class="circleDate">
+												<p class="mb-0">May 17,2013</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="topTags d-flex flex-column justify-content-start align-items-start mt-4 col-12">
-							<div class="badgesHead d-flex align-items-center justify-content-between mb-3 col-11">
+							<div class="badgesHead d-flex align-items-center justify-content-between mb-3 col-12 ">
 								<p class="badgesHeadText mb-0">Top tags</p>
 								<p class="badgesHeadView mb-0">View all tags</p>
 							</div>
-							<div class="tagsCard  d-flex flex-column align-items-start mb-4 col-11">
-								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
+							<div class="tagsCard  d-flex flex-column align-items-start mb-4 col-12 ">
+								<div class="tagsCardContents col-12  p-2 d-flex flex-wrap align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<div class="tagsNameHeadings d-flex align-items-center justify-content-center p-1">
 											<p class="mb-0">c#</p>
@@ -472,7 +497,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
+								<div class="tagsCardContents col-12  p-2 d-flex flex-wrap  align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<div class="tagsNameHeadings d-flex align-items-center justify-content-center p-1">
 											<p class="mb-0">java</p>
@@ -494,7 +519,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
+								<div class="tagsCardContents col-12  p-2 d-flex flex-wrap align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<div class="tagsNameHeadings d-flex align-items-center justify-content-center p-1">
 											<p class=" mb-0">.net</p>
@@ -516,7 +541,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
+								<div class="tagsCardContents col-12  p-2 d-flex flex-wrap align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<div class="tagsNameHeadings d-flex align-items-center justify-content-center p-1">
 											<p class=" mb-0">linq</p>
@@ -538,7 +563,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
+								<div class="tagsCardContents col-12  p-2 d-flex flex-wrap align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<div class="tagsNameHeadings d-flex align-items-center justify-content-center p-1">
 											<p class=" mb-0">string</p>
@@ -560,7 +585,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="tagsCardContentss col-12  p-2 d-flex align-items-center justify-content-between">
+								<div class="tagsCardContentss col-12  p-2 d-flex flex-wrap align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<div class="tagsNameHeadings d-flex align-items-center justify-content-center p-1">
 											<p class=" mb-0">generics</p>
@@ -585,12 +610,12 @@
 							</div>
 						</div>
 						<div class="topPosts d-flex flex-column justify-content-start align-items-start mt-4 col-12">
-							<div class="postsHead d-flex align-items-end justify-content-between mb-2 col-11">
+							<div class="postsHead d-flex flex-column flex-sm-row  align-sm-items-end justify-content-sm-between mb-2 col-12 ">
 								<div class="topPostView d-flex flex-column align-items-start justify-content-center">
 									<p class="badgesHeadText mb-0">Top posts</p>
 									<p class="badgesHeadView mb-0">View all <span>questions,answers,</span> and <span>articles</span></p>
 								</div>
-								<div class="viewAllQA d-flex align-items-center justify-content-between">
+								<div class="viewAllQA d-flex align-items-center justify-content-sm-between">
 									<div class="qA d-flex align-items-center justify-content-between">
 										<div class="qAAll d-flex align-items-center justify-content-center p-1">
 											<p class="mb-0">All</p>
@@ -615,7 +640,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="postCard d-flex flex-column align-items-start mb-4 col-11">
+							<div class="postCard d-flex flex-column align-items-start mb-4 col-12 ">
 								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<svg class="svg-icon iconAnswer greenIcons" width="18" height="18" viewBox="0 0 18 18">
@@ -625,7 +650,7 @@
 										<div class="greenNumbers d-flex align-items-center justify-content-center px-4">
 											<p class="mb-0">11863</p>
 										</div>
-										<p class="greenText mb-0">Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?</p>
+										<p class="greenText mb-0 ">Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?</p>
 									</div>
 									<div class="tagsScoreContents d-flex align-items-center justify-content-end">
 										<div class="tagsScore">
@@ -754,7 +779,7 @@
 								</div>
 								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
-										<svg class="svg-icon iconAnswer greenIcons" width="18" height="18" viewBox="0 0 18 18">
+										<svg class="svg-icon iconAnswer greenIcons " width="18" height="18" viewBox="0 0 18 18">
 											<title>answer</title>
 											<path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path>
 										</svg>
@@ -771,7 +796,7 @@
 								</div>
 								<div class="tagsCardContentss col-12  p-2 d-flex align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
-										<svg class="svg-icon iconAnswer greenIcons" width="18" height="18" viewBox="0 0 18 18">
+										<svg class="svg-icon iconAnswer greenIcons " width="18" height="18" viewBox="0 0 18 18">
 											<title>answer</title>
 											<path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path>
 										</svg>
@@ -789,7 +814,7 @@
 							</div>
 						</div>
 						<div class="topPosts d-flex flex-column justify-content-start align-items-start mt-4 col-12">
-							<div class="badgesHead d-flex align-items-center justify-content-between mb-1 col-11">
+							<div class="badgesHead d-flex align-items-center justify-content-between mb-1 col-12 ">
 								<p class="badgesHeadText mb-0">Top Meta posts</p>
 								<div class="metaPost d-flex align-items-center justify-content-center">
 									<div class="metaPostIconNumber d-flex align-items-center justify-content-center">
@@ -806,7 +831,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="metaPostCard d-flex flex-column align-items-start mb-4 col-11">
+							<div class="metaPostCard d-flex flex-column align-items-start mb-4 col-12 ">
 								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<img src="./assets/stackOverflowGrey.png" alt="stackOverflowGrey">
@@ -855,11 +880,11 @@
 							</div>
 						</div>
 						<div class="topPosts d-flex flex-column justify-content-start align-items-start mt-4 col-12">
-							<div class="badgesHead d-flex align-items-center justify-content-between mb-1 col-11">
+							<div class="badgesHead d-flex align-items-center justify-content-between mb-1 col-12 ">
 								<p class="badgesHeadText mb-0">Top network posts</p>
 								<p class="badgesHeadView mb-0">View all network posts</p>
 							</div>
-							<div class="metaPostCard d-flex flex-column align-items-start mb-4 col-11">
+							<div class="metaPostCard d-flex flex-column align-items-start mb-4 col-12 ">
 								<div class="tagsCardContents col-12  p-2 d-flex align-items-center justify-content-between">
 									<div class="tagsName d-flex align-items-center my-1">
 										<img src="./assets/chatBox.png" alt="stackOverflowGrey">
@@ -907,79 +932,167 @@
 								</div>
 							</div>
 						</div>
+						<div class="collectText d-xs-flex d-lg-none ">
+							<p class="mb-0">Collectives</p>
+						</div>
+						<div class="collectBox d-xs-flex d-lg-none p-1 my-4  flex-column align-items-start justify-content-start">
+							<div class="googleCloud d-flex ">
+								<div class="cloud d-flex align-items-center justify-content-start">
+									<img src="./assets/cloud.png" alt="cloud">
+								</div>
+								<div class="google d-flex flex-column justify-content-center align-items-start col-9">
+									<p class="numbers mb-0">Google Cloud</p>
+									<p class="mb-0">2021 <b>.</b> Member</p>
+								</div>
+							</div>
+						</div>
+						<div class="communityText d-xs-flex d-lg-none">
+							<div class="communities d-flex d-lg-none align-items-center justify-content-between col-12">
+								<div>
+									<p class="mb-0">Communities</p>
+								</div>
+								<div class="viewAll d-flex align-items-center">
+									<p class="mb-0">View all</p>
+									<svg aria-hidden="true" class="svg-icon iconShareSm" width="14" height="14" viewBox="0 0 14 14">
+										<path d="M5 1H3a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V9h-2v2H3V3h2V1Zm2 0h6v6h-2V4.5L6.5 9 5 7.5 9.5 3H7V1Z"></path>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="communityBox d-xs-flex d-lg-none flex-column align-items-between p-0 py-2 my-4  ">
+							<div class="communityContents d-flex align-items-center justify-content-between ">
+								<div class="communityContentsStack d-flex align-items-center justify-content-start col-11">
+									<div class="communityContentsStackImg d-flex align-items-center justify-content-center col-1">
+										<img src="./assets/stackOverflow.png" alt="stack">
+									</div>
+									<div class="communityContentsStackP">
+										<p class="contentText mb-0">Stack Overflow</p>
+									</div>
+								</div>
+								<div class="communityNumbers">
+									<p class="mb-0">1.4m</p>
+								</div>
+							</div>
+							<div class="communityContents d-flex align-items-center justify-content-between ">
+								<div class="communityContentsStack d-flex align-items-center justify-content-start col-11">
+									<div class="communityContentsStackImg d-flex align-items-center justify-content-center col-1">
+										<img src="./assets/metaStack.png" alt="meta">
+									</div>
+									<div class="communityContentsStackP">
+										<p class="contentText mb-0">Meta Stack Exchange</p>
+									</div>
+								</div>
+								<div class="communityNumbers">
+									<p class="mb-0">93.7k</p>
+								</div>
+							</div>
+							<div class="communityContents d-flex align-items-center justify-content-between ">
+								<div class="communityContentsStack d-flex align-items-center justify-content-start col-11">
+									<div class="communityContentsStackImg d-flex align-items-center justify-content-center col-1">
+										<img src="./assets/superStack.png" alt="super">
+									</div>
+									<div class="communityContentsStackP">
+										<p class="contentText mb-0">Stack Overflow</p>
+									</div>
+								</div>
+								<div class="communityNumbers">
+									<p class="mb-0">5.1k</p>
+								</div>
+							</div>
+							<div class="communityContents d-flex align-items-center justify-content-between ">
+								<div class="communityContentsStack d-flex align-items-center justify-content-start col-11">
+									<div class="communityContentsStackImg d-flex align-items-center justify-content-center col-1">
+										<img src="./assets/serverStack.png" alt="server">
+									</div>
+									<div class="communityContentsStackP">
+										<p class="contentText mb-0">Stack Overflow</p>
+									</div>
+								</div>
+								<div class="communityNumbers">
+									<p class="mb-0">4.9k</p>
+								</div>
+							</div>
+							<div class="communityContents d-flex align-items-center justify-content-between ">
+								<div class="communityContentsStack d-flex align-items-center justify-content-start col-11">
+									<div class="communityContentsStackImg d-flex align-items-center justify-content-center col-1">
+										<img src="./assets/softwareStack.png" alt="software">
+									</div>
+									<div class="communityContentsStackP">
+										<p class="contentText mb-0">Software Engineering</p>
+									</div>
+								</div>
+								<div class="communityNumbers">
+									<p class="mb-0">3.4k</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	
-		<div class="footer d-flex justify-content-start p-5 py-3">
-
-			<div class="footerLogo me-5">
-				<svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37"><path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path><path d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z" fill="#F48024"></path></svg>
+		<div class="footer d-flex flex-column flex-lg-row justify-content-start p-3 p-xl-5 py-xl-3 col-12">
+		<div class="footerLogo d-none d-sm-flex   p-1 me-xl-5">
+			<svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37">
+				<path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path>
+				<path d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z" fill="#F48024"></path>
+			</svg>
+		</div>
+		<div class="footerHT d-flex flex-column align-items-between justify-content-start my-3  col-12 col-lg-2">
+			<p class="mb-0"><b>STACK OVERFLOW</b></p>
+			<div class="footerText d-flex flex-row flex-lg-column flex-wrap">
+				<p class="mb-0">Questions</p>
+				<p class="mb-0">Help</p>
 			</div>
-
-			<div class="footerHT d-flex flex-column align-items-between justify-content-start my-3  col-2">
-				<p class="mb-0"><b>STACK OVERFLOW</b></p>
-				<div class="footerText">
-					<p class="mb-0">Questions</p>
-					<p class="mb-0">Help</p>
-
-				</div>				
+		</div>
+		<div class="footerHT d-flex flex-column align-items-between justify-content-start my-3  col-12 col-lg-2">
+			<p class="mb-0"><b>PRODUCTS</b></p>
+			<div class="footerText d-flex flex-row flex-lg-column flex-wrap">
+				<p class="mb-0">Teams</p>
+				<p class="mb-0">Advertising</p>
+				<p class="mb-0">Collectives</p>
+				<p class="mb-0">Talent</p>
 			</div>
-
-			<div class="footerHT d-flex flex-column align-items-between justify-content-start my-3  col-2">
-				<p class="mb-0"><b>PRODUCTS</b></p>
-				<div class="footerText">
-					<p class="mb-0">Teams</p>
-					<p class="mb-0">Advertising</p>
-					<p class="mb-0">Collectives</p>
-					<p class="mb-0">Talent</p>
-
-				</div>				
+		</div>
+		<div class="footerHT d-flex flex-column align-items-between justify-content-start my-3  col-12 col-lg-2">
+			<p class="mb-0"><b>COMPANY</b></p>
+			<div class="footerText d-flex flex-row flex-lg-column flex-wrap">
+				<p class="mb-0">About</p>
+				<p class="mb-0">Press</p>
+				<p class="mb-0">Work Here</p>
+				<p class="mb-0">Legal</p>
+				<p class="mb-0">Privacy Policy</p>
+				<p class="mb-0">Terms of Services</p>
+				<p class="mb-0">COntact Us</p>
+				<p class="mb-0">Cookie Settings</p>
+				<p class="mb-0">Cookie policy</p>
 			</div>
-
-			<div class="footerHT d-flex flex-column align-items-between justify-content-start my-3  col-2">
-				<p class="mb-0"><b>COMPANY</b></p>
-				<div class="footerText">
-					<p class="mb-0">About</p>
-					<p class="mb-0">Press</p>
-					<p class="mb-0">Work Here</p>
-					<p class="mb-0">Legal</p>
-					<p class="mb-0">Privacy Policy</p>
-					<p class="mb-0">Terms of Services</p>
-					<p class="mb-0">COntact Us</p>
-					<p class="mb-0">Cookie Settings</p>
-					<p class="mb-0">Cookie policy</p>
-
-				</div>				
+		</div>
+		<div class="footerHTh d-flex flex-column align-items-between justify-content-start my-3  col-12 col-lg-2">
+			<p class="mb-0"><b>STACK EXCHANGE NETWORK</b></p>
+			<div class="footerText d-flex flex-row flex-lg-column flex-wrap">
+				<p class="mb-0">Technology</p>
+				<p class="mb-0">Culture & recreation</p>
+				<p class="mb-0">Life & arts</p>
+				<p class="mb-0">Science</p>
+				<p class="mb-0">Proffessional</p>
+				<p class="mb-0">Business</p>
+				<br>
+				<p class="mb-0">API</p>
+				<p class="mb-0">Data</p>
 			</div>
-
-			<div class="footerHTh d-flex flex-column align-items-between justify-content-start my-3  col-2">
-				<p class="mb-0"><b>STACK EXCHANGE NETWORK</b></p>
-				<div class="footerText">
-					<p class="mb-0">Technology</p>
-					<p class="mb-0">Culture & recreation</p>
-					<p class="mb-0">Life & arts</p>
-					<p class="mb-0">Science</p>
-					<p class="mb-0">Proffessional</p>
-					<p class="mb-0">Business</p><br>
-					<p class="mb-0">API</p>
-					<p class="mb-0">Data</p>
-				</div>				
-			</div>
-			<div class="footerBlog d-flex flex-column align-items-between justify-content-between ms-5 pb-1">
-				<div class="blogs d-flex align-items-center justify-content-start mt-3">
-					<p class="mb-0">Blog</p>
-					<p class="mb-0">Facebook</p>
-					<p class="mb-0">Twitter</p>
-					<p class="mb-0">LinkedIn</p>
-					<p class="mb-0">Instagram</p>
-				</div
+		</div>
+		<div class="footerBlog d-flex flex-column align-items-between justify-content-between ms-lg-3 pb-1">
+			<div class="blogs d-flex align-items-center justify-content-start mt-3">
+				<p class="mb-0">Blog</p>
+				<p class="mb-0">Facebook</p>
+				<p class="mb-0">Twitter</p>
+				<p class="mb-0">LinkedIn</p>
+				<p class="mb-0">Instagram</p>
+				</div>
 				<div class="footerCopywrite">
 					<p class="mb-0">Site design / logo © 2024 Stack Exchange Inc; user contributions licensed under CC BY-SA. rev 2024.2.7.4445</p>
-				</div>				
+				</div>
 			</div>
-
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</body>
